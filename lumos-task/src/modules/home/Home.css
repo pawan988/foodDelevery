@@ -1,0 +1,23 @@
+.home-main-cont {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.homeHero-cont {
+  height: 700px;
+}
+
+@media screen and (max-width: 1280px) {
+  .homeHero-cont {
+    height: 300px;
+    border: 1px solid red;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeHero-cont {
+    height: 200px;
+    border: 1px solid red;
+  }
+}
