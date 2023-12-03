@@ -8,7 +8,7 @@ import { IoBagOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <div className="header-main flex md:pl-5 xl:pl-20 xl:pr-0 xl:py-4 lg:pl-20 lg:pr-0 lg:py-4 2xl:pl-20 2xl:pr-0 2xl:py-4">
+    <div className="header-main flex md:pl-8 md:pt-4 md:pb-4 xl:pl-20 xl:pr-0 xl:py-4 lg:pl-20 lg:pr-0 lg:py-4 2xl:pl-20 2xl:pr-0 2xl:py-4">
       <div className="flex header-left  lg:gap-20 xl:gap-20 2xl:gap-20 md:gap-5">
         {/* PET FOOD LOGO */}
         <div className="petFood-logo-cont w-24 h-13 cursor-pointer">
