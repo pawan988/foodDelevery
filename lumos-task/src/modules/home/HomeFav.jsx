@@ -75,12 +75,27 @@ const HomeFav = () => {
       </div>
       {/* HOME FAV PRODUCT LIST */}
       <div className="homeFav-productList-main">
-        <div className="homeFav-productList-wraper  flex justify-between items-center">
+        <div
+          className="homeFav-productList-wraper  
+        xl:flex xl:justify-between xl:items-center
+        2xl:flex 2xl:justify-between 2xl:items-center
+        lg:flex lg:justify-between lg:items-center
+        
+        "
+        >
           <div
             className="homeFav-product1 bg-cover bg-center rounded-lg"
             style={{ backgroundImage: `url('${homeFav1img}')` }}
           >
-            <div className="homeFav1-Text-cont pt-10 pl-5">
+            <div
+              className="homeFav1-Text-cont 
+            xl:pt-10 xl:pl-5
+            2xl:pt-10 2xl:pl-5
+            lg:pt-10 lg:pl-5
+            md:pt-20 md:pl-12
+            pt-10 pl-15
+            "
+            >
               <p className="font-poppins font-medium text-base leading-6 text-gray-400">
                 ACCESSORIES + FOOD COMBO
               </p>
@@ -111,10 +126,17 @@ const HomeFav = () => {
               </div>
             </div>
           </div>
-          <div className="homeFav-product3 flex flex-col justify-between">
+          <div
+            className="homeFav-product3 
+          xl:flex xl:flex-col xl:justify-between
+          2xl:flex 2xl:flex-col 2xl:justify-between
+          lg:flex lg:flex-row
+          md:flex md:flex-col
+          "
+          >
             <div className="hoomeFav-product3-child1 rounded-lg flex flex-row border border-solid border-gray-300 shadow-md">
               <div className="homeFav-product3-child1">
-                <div className="homeFav3-Text-cont pt-10 pl-5">
+                <div className="homeFav3-Text-cont pt-10 pl-5 md:pl-6">
                   <p className="font-poppins font-medium text-base leading-6 text-gray-400">
                     Axel & blue
                   </p>
@@ -132,9 +154,16 @@ const HomeFav = () => {
                 <img src={homeFav4img} alt="img1" />
               </div>
             </div>
-            <div className="hoomeFav-product3-child2 rounded-lg flex flex-row border border-solid border-gray-300 shadow-md">
+            <div
+              className="hoomeFav-product3-child2 
+            rounded-lg flex flex-row border border-solid border-gray-300 shadow-md
+            lg:mt-0
+            xl:mt-0
+            2xl:mt-0 
+            mt-5"
+            >
               <div className="homeFav-product3-child1">
-                <div className="homeFav3-Text-cont pt-10 pl-5">
+                <div className="homeFav3-Text-cont pt-10 pl-5 md:pl-6">
                   <p className="font-poppins font-medium text-base leading-6 text-gray-400">
                     Axel & blue
                   </p>
