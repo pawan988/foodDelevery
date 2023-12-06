@@ -77,11 +77,12 @@ const HomeFav = () => {
       <div className="homeFav-productList-main">
         <div
           className="homeFav-productList-wraper  
-        xl:flex xl:justify-between xl:items-center
-        2xl:flex 2xl:justify-between 2xl:items-center
-        lg:flex lg:justify-between lg:items-center
-        
-        "
+         sm:flex sm:justify-between sm:items-center sm:flex-col sm:gap-4
+          md:flex md:justify-between md:items-center md:flex-col md:gap-4
+          lg:flex lg:justify-between lg:items-center lg:flex-col lg:gap-4
+          xl:flex xl:flex-row xl:justify-between xl:items-center
+          flex flex-col justify-between items-center gap-4
+          "
         >
           <div
             className="homeFav-product1 bg-cover bg-center rounded-lg"
@@ -93,8 +94,7 @@ const HomeFav = () => {
             2xl:pt-10 2xl:pl-5
             lg:pt-10 lg:pl-5
             md:pt-20 md:pl-12
-            pt-10 pl-15
-            "
+            pt-10 pl-4"
             >
               <p className="font-poppins font-medium text-base leading-6 text-gray-400">
                 ACCESSORIES + FOOD COMBO
@@ -110,7 +110,10 @@ const HomeFav = () => {
             </div>
           </div>
           <div className="homeFav-product2 flex justify-center items-center flex-col rounded-lg ">
-            <div className="homeFav-product2-heading text-center font-poppins font-semibold text-base leading-6">
+            <div
+              className="homeFav-product2-heading 
+            text-center font-poppins font-semibold text-base leading-6 pt-10 md:pt-0"
+            >
               <h2>PEANUT BUTTER COOKIES</h2>
             </div>
 
@@ -121,7 +124,7 @@ const HomeFav = () => {
               <button class="border border-solid border-black rounded-lg py-2 px-4 bg-black text-white cursor-pointer mt-6">
                 Order Now
               </button>
-              <div className="homeFav3-img-cont pt-10 pl-5 ">
+              <div className="homeFav3-img-cont  xl:pt-10 md:pt-10 lg:pt-10 pt-4 pl-5 ">
                 <img src={homeFav2img} />
               </div>
             </div>
@@ -129,12 +132,15 @@ const HomeFav = () => {
           <div
             className="homeFav-product3 
           xl:flex xl:flex-col xl:justify-between
-          2xl:flex 2xl:flex-col 2xl:justify-between
-          lg:flex lg:flex-row
-          md:flex md:flex-col
+          lg:flex lg:flex-row lg:gap-4
+          md:flex md:flex-col  md:gap-4
           "
           >
-            <div className="hoomeFav-product3-child1 rounded-lg flex flex-row border border-solid border-gray-300 shadow-md">
+            <div
+              className="hoomeFav-product3-child1 
+           
+            rounded-lg flex flex-row border border-solid border-gray-300 shadow-md"
+            >
               <div className="homeFav-product3-child1">
                 <div className="homeFav3-Text-cont pt-10 pl-5 md:pl-6">
                   <p className="font-poppins font-medium text-base leading-6 text-gray-400">
