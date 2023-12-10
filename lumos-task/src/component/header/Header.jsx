@@ -59,8 +59,17 @@ const Header = () => {
           <div className="acount-cont w-8 h-8 border flex justify-center rounded-full items-center cursor-pointer bg-gray-200">
             <VscAccount />
           </div>
-          <div className="cart-cont w-8 h-8 border flex justify-center rounded-full items-center cursor-pointer bg-gray-200">
+          {/* <div className="cart-cont w-8 h-8 border flex justify-center rounded-full items-center cursor-pointer bg-gray-200">
             <IoBagOutline />
+          </div> */}
+          <div className="relative cart-cont w-8 h-8 border flex justify-center rounded-full items-center cursor-pointer bg-gray-200">
+            <div className="headerMobile-cart flex justify-center items-center w-10">
+              <IoBagOutline />
+            </div>
+
+            <div className="absolute top-[-5px] right-[-5px] bg-yellow-500 text-white rounded-full w-5 h-5 flex items-center justify-center">
+              0
+            </div>
           </div>
         </div>
       </div>
