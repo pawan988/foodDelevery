@@ -5,6 +5,7 @@ import HomeFav from "./HomeFav";
 import HomeOrganic from "./HomeOrganic";
 import HomePetNeeds from "./HomePetNeeds";
 import BsetSelling from "./BestSelling";
+import HomeCard from "./HomeCard";
 const Home = () => {
   return (
     <div className="home-main-cont">
@@ -13,6 +14,7 @@ const Home = () => {
       <HomeOrganic />
       <HomePetNeeds />
       <BsetSelling />
+      <HomeCard />
     </div>
   );
 };

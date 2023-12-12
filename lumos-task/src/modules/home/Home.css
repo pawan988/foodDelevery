@@ -173,6 +173,40 @@
 .homeBestSelling-main:hover {
   scrollbar-color: #ccc transparent;
 }
+.homecard-container {
+  height: 350px;
+  padding: 70px 17.708vw;
+}
+.homecard-wraper {
+  height: 243px;
+}
+.homecard-card {
+  width: 312px;
+  height: 163px;
+  background-color: #ffffff;
+}
+.homeCard-child {
+  width: 392px;
+  height: 243px;
+}
+.homeCard-img-cont {
+  width: 15px;
+  height: 22px;
+}
+.homeCard-img-cont > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.homecardship-img {
+  width: 40px;
+  height: 40px;
+}
+.homecardship-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 @media screen and (max-width: 1280px) {
   .homeHero-cont {
     height: 300px;
