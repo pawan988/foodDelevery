@@ -1,0 +1,28 @@
+.footerMain-cont {
+  height: 460px;
+}
+.footerContent-wrapper {
+  height: 400px;
+  padding: 0px 6.25vw;
+}
+
+.footerChild1-cont1 {
+  border: 1px solid red;
+  width: 16.667vw;
+}
+.footerChild1-cont2 {
+  border: 1px solid green;
+}
+.footerChild1-cont3 {
+  border: 1px solid teal;
+}
+
+.footerImg-cont {
+  width: 160px;
+  height: 100px;
+}
+.footerImg-cont > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

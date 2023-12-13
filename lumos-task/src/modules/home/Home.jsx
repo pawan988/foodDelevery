@@ -6,6 +6,7 @@ import HomeOrganic from "./HomeOrganic";
 import HomePetNeeds from "./HomePetNeeds";
 import BsetSelling from "./BestSelling";
 import HomeCard from "./HomeCard";
+import Footer from "../../component/footer/Footer";
 const Home = () => {
   return (
     <div className="home-main-cont">
@@ -15,6 +16,7 @@ const Home = () => {
       <HomePetNeeds />
       <BsetSelling />
       <HomeCard />
+      <Footer />
     </div>
   );
 };

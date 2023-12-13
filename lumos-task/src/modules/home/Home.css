@@ -130,8 +130,7 @@
 .homeBestSelling-container {
   padding: 30px 6.25vw;
 }
-.homeBestSelling-main {
-}
+
 .bestSelling-card-main {
   width: 260px;
   height: 412px;
@@ -174,7 +173,7 @@
   scrollbar-color: #ccc transparent;
 }
 .homecard-container {
-  height: 350px;
+  height: 386px;
   padding: 70px 17.708vw;
 }
 .homecard-wraper {
