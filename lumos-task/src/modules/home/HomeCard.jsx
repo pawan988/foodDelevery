@@ -7,11 +7,14 @@ const HomeCard = () => {
   return (
     <div
       className="homecard-container overflow-x-auto"
-      style={{ backgroundImage: `url(${homeCardBackground})` }}
+      style={{
+        backgroundImage: `url(${homeCardBackground})`,
+        backgroundColor: "#F2FEFF",
+      }}
     >
       <div className="homecard-wraper flex sm:justify-between md:justify-between lg:justify-between gap-6 ">
-        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg">
-          <div className="homecard-card pl-10 sm:pl-0 md:pl-0 lg:pl-0">
+        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg rounded-lg">
+          <div className="homecard-card pl-10 sm:pl-0 md:pl-0 lg:pl-0 ">
             <div className="homeCard-img-cont">
               <div className="homeCard-img">
                 <img src={freshProduct} alt="" />
@@ -31,7 +34,7 @@ const HomeCard = () => {
           </div>
         </div>
 
-        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg">
+        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg rounded-lg">
           <div className="homecard-card pl-10 sm:pl-0 md:pl-0 lg:pl-0">
             <div className="homeCard-img-cont">
               <div className="homeCardship-img">
@@ -52,7 +55,7 @@ const HomeCard = () => {
           </div>
         </div>
 
-        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg">
+        <div className="homeCard-child flex justify-center items-center border border-gray shadow-lg rounded-lg">
           <div className="homecard-card pl-10 sm:pl-0 md:pl-0 lg:pl-0">
             <div className="homeCard-img-cont">
               <div className="homeCard-img">

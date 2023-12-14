@@ -7,14 +7,7 @@
 }
 
 .footerChild1-cont1 {
-  border: 1px solid red;
   width: 16.667vw;
-}
-.footerChild1-cont2 {
-  border: 1px solid green;
-}
-.footerChild1-cont3 {
-  border: 1px solid teal;
 }
 
 .footerImg-cont {
@@ -25,4 +18,8 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.footerChild1-cont3 {
+  width: 168px;
 }
